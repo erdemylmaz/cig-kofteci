@@ -1,0 +1,81 @@
+html,
+body {
+  height: 97%;
+  width: 99%;
+  transition: 500ms;
+  font-family: "Sans Serif";
+  -webkit-flex-box: 1;
+}
+.dark-mode {
+  transition: 500ms;
+  background-color: #131313;
+  color: gray;
+}
+#container {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+header {
+  display: flex;
+}
+#darkModeButton {
+  width: 175px;
+  text-align: center;
+  font-size: 24px;
+  position: relative;
+  margin-left: 52%;
+  margin-right: 8px;
+}
+h1 {
+  margin-left: 5%;
+}
+hr {
+  border: none;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(142, 142, 147);
+}
+footer {
+  position: relative;
+  width: 100%;
+  color: rgba(125, 125, 125, 1);
+}
+button {
+  border: none;
+  background-color: #777;
+  color: black;
+  font-size: 24px;
+  width: 200px;
+  border-radius: 15px;
+  transition: 100ms;
+}
+table tr td {
+  margin-top: 225px;
+}
+button:hover {
+  background-color: rgba(10, 132, 255);
+  border: none;
+  transition: 100ms;
+}
+span {
+  font-size: 24px;
+  margin-left: 25px;
+}
+button:disabled {
+  opacity: 0.25;
+}
+button:disabled:hover {
+  border: none;
+  background-color: #777;
+  color: black;
+  font-size: 24px;
+  border-radius: 15px;
+}
+#arti,
+#eksi {
+  width: 50px;
+}
+#autoBuyerButton {
+  transition: 0s;
+}

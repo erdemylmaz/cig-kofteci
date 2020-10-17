@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="App.css">
+    </head>
+    <body>
+        <div id = "container">
+            <div id="game">
+                <span>Isletme (Level<span id = "level"></span>)</span>
+                <button id = "darkModeButton">Switch Mode</button>
+                <span id = "tiktak"></span>
+                <hr/>
+                <table cellpadding = "5">
+                <tr>
+                    <td><span style = "text-align : left;">Uretilen Cig Kofte:</span></td>
+                    <td><span id ="cigKofte"></span></td>
+                </tr>
+                
+                <tr>
+                    <td><button id ="makeButton" id ="button">Cig Kofte Yap</button></td>
+                    <td><span id = "cck"></span></td>
+                </tr>
+                
+                <tr>
+                    <td><button id ="sellButton"id ="button">Cig Kofte Sat</button>
+                    <td><span id = "money"></span></td>
+                </tr>
+
+                <tr>
+                    <td><button id = "buyMaterialButton"id ="button">Malzeme Satin Al (<span id = "materialFee"></span>₺)</button></td>
+                    <td><span id ="material"></td>
+                </tr>
+        
+                <tr>
+                    <td><span id ="fiyat">Fiyat : <span id ="cigKofteFee"></span>₺
+                    <button id ="arti"id ="button">+</button>
+                    <button id ="eksi"id ="button">-</button>
+                    </span></td>
+                </tr>
+        
+                <tr id = "autoBuyer">
+                    <td><span>Satin Alma Muduru : </span></td>
+                    <td><span id ="autoBuyerText"></span></td>
+                    <td><button id = "autoBuyerButton"id ="button">Satin Al!</button></td>
+                </tr>
+            </table>
+            <span>Market</span>
+            <hr />
+            <div id="market-container">
+                <div id = "cirak"><button id = "cirakButton">Cirak Satin Al (<span id = "cirakFee"></span>₺)</button><span id="currentCirakAmount"></span></div>
+                <div id = "usta"><button id = "ustaButton">Usta Satin Al (<span id = "ustaFee"></span>₺)</button><span id="currentUstaAmount"></span></div>
+            </div>
+        </div>
+        <footer id = "footer">
+        <hr / class = "bottom-hr">
+            <h4>Made by Karpuz 🍉</h4>
+        </footer>
+        <script type="text/javascript" src="App.js"></script>
+    </body>
+    </html>

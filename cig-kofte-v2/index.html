@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div id="start">
+            
+            <form id="operation-name-form">
+                <label style="font-size : 24px;">Lutfen isletmenizin adini giriniz</label>
+                <br>
+                <input id="operation-name-input" type="text" maxlength="32">
+                <input type="submit" id="form-submit">
+            </form>
+        </div>
+
+        <div id="game">
+            <header>
+                <h1 style="text-align : center;" id="operationName"></h1>
+            </header>
+            <section>
+                <div id="header">
+                    <span>Çiğ Köfte: </span>
+                    <span id="makedCigKofte"></span>
+                    <br/>
+                    <button id="makeCigKofteButton" style="margin-top: 6px;">Çiğ Köfte Yoğur!</button>
+                </div>
+
+                <div id="operationArea">
+                    <br>İşletme</br>
+                    <hr />
+
+                    <table>
+                        <tr>
+                            <td>Kasadaki para:</td>
+                            <td id="money"></td>
+                        </tr>
+
+                        <tr>                                                                                                                                                                                                                                
+                            <td>Dolaptaki adet:</td>                                                                                                                                                                                                                                                                                         
+                            <td id="currentCigKofte"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Fiyat:</td>
+                            <td id="cigKofteFee"></td>
+                        </tr>
+                    </table>
+
+                    <br>Üretim</be>
+                    <hr />
+                    <table>
+                        <tr>
+                            <td>Malzeme:</td>
+                            <td style="width: 350px;"><span id="material"></span> gr <button id="buyMaterial" style="margin-left: 12px;">Satin Al!(<span id="materialCost"></span>)</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <script src = "App.js"></script>
+        </div>
+    </body>
+</html>
